@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@effect/schema':
+        specifier: ^0.75.5
+        version: 0.75.5(effect@3.21.2)
       effect:
         specifier: ^3.21.2
         version: 3.21.2
@@ -23,6 +26,12 @@ importers:
         version: 6.0.3
 
 packages:
+
+  '@effect/schema@0.75.5':
+    resolution: {integrity: sha512-TQInulTVCuF+9EIbJpyLP6dvxbQJMphrnRqgexm/Ze39rSjfhJuufF7XvU3SxTgg3HnL7B/kpORTJbHhlE6thw==}
+    deprecated: this package has been merged into the main effect package
+    peerDependencies:
+      effect: ^3.9.2
 
   '@esbuild/aix-ppc64@0.27.7':
     resolution: {integrity: sha512-EKX3Qwmhz1eMdEJokhALr0YiD0lhQNwDqkPYyPhiSwKrh7/4KRjQc04sZ8db+5DVVnZ1LmbNDI1uAMPEUBnQPg==}
@@ -226,6 +235,11 @@ packages:
     resolution: {integrity: sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==}
 
 snapshots:
+
+  '@effect/schema@0.75.5(effect@3.21.2)':
+    dependencies:
+      effect: 3.21.2
+      fast-check: 3.23.2
 
   '@esbuild/aix-ppc64@0.27.7':
     optional: true
